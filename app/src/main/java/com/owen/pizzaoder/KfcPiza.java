@@ -7,11 +7,14 @@ public class KfcPiza  {
 
     private String mPlaceOder;
 
+    private int mImageResourceId;
 
-   public KfcPiza(String pizaName, String placeOder)
+
+   public KfcPiza(String pizaName, String placeOder, int imageResourceId)
    {
-       mPizzaName = pizaName;
-       mPlaceOder = placeOder;
+       this.mPizzaName = pizaName;
+       this.mPlaceOder = placeOder;
+       mImageResourceId = imageResourceId;
    }
 
 
@@ -23,5 +26,10 @@ public class KfcPiza  {
    public String getPlaceOder()
    {
        return mPlaceOder;
+   }
+
+   public int getImageResourceIdPizza()
+   {
+       return mImageResourceId;
    }
 }

@@ -2,21 +2,40 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
+    android:orientation="horizontal"
     xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="88dp"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_pizza_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="chicken Baristo"/>
+    <ImageView
+        android:id="@+id/iv_imagePizzaView"
+        android:layout_width="88dp"
+        android:layout_height="88dp" />
 
-    <TextView
-        android:id="@+id/tv_place_oder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Nakuru"/>
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="88dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:id="@+id/tv_pizza_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:text="chicken Baristo"/>
+
+        <TextView
+            android:id="@+id/tv_place_oder"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:text="Nakuru"/>
+
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

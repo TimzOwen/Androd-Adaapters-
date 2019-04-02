@@ -19,34 +19,34 @@ public class ChickenInOderActivity extends AppCompatActivity {
 
         ArrayList<KfcPiza> chickens = new ArrayList<>();
 
-        chickens.add(new KfcPiza("chicken", "Kabarak"));
-        chickens.add(new KfcPiza("pza", "Nakuru"));
-        chickens.add(new KfcPiza("baristo", "Kiamunyi"));
-        chickens.add(new KfcPiza("ceg", "Stage One"));
+        chickens.add(new KfcPiza("chicken", "Kabarak", R.drawable.family_daughter));
+        chickens.add(new KfcPiza("pza", "Nakuru", R.drawable.family_father));
+        chickens.add(new KfcPiza("baristo", "Kiamunyi", R.drawable.color_black));
+        chickens.add(new KfcPiza("ceg", "Stage One", R.drawable.color_brown));
 
-        chickens.add(new KfcPiza("chick", "Kabu"));
-        chickens.add(new KfcPiza("legs", "high school"));
+        chickens.add(new KfcPiza("chick", "Kabu", R.drawable.family_older_sister));
+        chickens.add(new KfcPiza("legs", "high school", R.drawable.family_daughter));
 
-        chickens.add(new KfcPiza("smokie", "stud c"));
-        chickens.add(new KfcPiza("sausage", "kfa"));
+        chickens.add(new KfcPiza("smokie", "stud c", R.drawable.family_older_sister));
+        chickens.add(new KfcPiza("sausage", "kfa", R.drawable.family_daughter));
 
-        chickens.add(new KfcPiza("oder", "anex"));
-        chickens.add(new KfcPiza("pig", "kericho"));
+        chickens.add(new KfcPiza("oder", "anex", R.drawable.color_gray));
+        chickens.add(new KfcPiza("pig", "kericho", R.drawable.family_younger_brother));
 
-        chickens.add(new KfcPiza("chips", "nakuru"));
-        chickens.add(new KfcPiza("soda", "DCs"));
+        chickens.add(new KfcPiza("chips", "nakuru", R.drawable.family_older_sister));
+        chickens.add(new KfcPiza("soda", "DCs", R.drawable.family_daughter));
 
-        chickens.add(new KfcPiza("bbear", "Rafiki"));
-        chickens.add(new KfcPiza("space", "Kabugut"));
+        chickens.add(new KfcPiza("bbear", "Rafiki", R.drawable.family_daughter));
+        chickens.add(new KfcPiza("space", "Kabugut", R.drawable.family_younger_sister));
 
-        chickens.add(new KfcPiza("chicken", "odan"));
-        chickens.add(new KfcPiza("barissto", "jkaut"));
+        chickens.add(new KfcPiza("chicken", "odan", R.drawable.family_daughter));
+        chickens.add(new KfcPiza("barissto", "jkaut", R.drawable.family_older_sister));
 
-        chickens.add(new KfcPiza("nakuru", "chapchap"));
-        chickens.add(new KfcPiza("stew", "nderkwa"));
+        chickens.add(new KfcPiza("nakuru", "chapchap", R.drawable.number_eight));
+        chickens.add(new KfcPiza("stew", "nderkwa", R.drawable.family_daughter));
 
-        chickens.add(new KfcPiza("choma", "kambi"));
-        chickens.add(new KfcPiza("chicken", "westgate"));
+        chickens.add(new KfcPiza("choma", "kambi", R.drawable.family_daughter));
+        chickens.add(new KfcPiza("chicken", "westgate", R.drawable.number_four));
 
 
 
